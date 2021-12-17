@@ -253,4 +253,16 @@ div.desc {
 .container {
   padding: 2px 16px;
 }
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 </style>
